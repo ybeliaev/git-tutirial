@@ -82,3 +82,8 @@
 * `git show <branch>~` - на 1 коммит назад
 * `git show <branch>~~` - на 2 коммит назад
 * `git show <branch>~2` - тоже самое
+### Слияние веток "перемоткой"
+* `git checkout master` - перейти на ветку, в которую производить слияние
+* `git merge <branch_name>`
+* `cat .git/ORIG_HEAD` вывод последнего id перед слиянием, т.е
+* `cat branch -f master ORIG_HEAD` вернёт все как было до слияния с `master`
