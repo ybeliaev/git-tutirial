@@ -77,3 +77,8 @@
 * `git checkout 45a32 <file_name or dir>` or `git checkout <branch> <file_name or dir>`
 * `git reset  <file_name>` сброс индекса
 #### Если незакоммич. то `git checkout <file_name>`
+### Просмотр истории 
+* `git log`
+* `git show <branch>~` - на 1 коммит назад
+* `git show <branch>~~` - на 2 коммит назад
+* `git show <branch>~2` - тоже самое
