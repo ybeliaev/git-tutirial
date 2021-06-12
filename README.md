@@ -72,3 +72,8 @@
 * `git checkout -B master 45a32`, где 45a32 - id коммита ветки мастер, куда нужно откатиться
 ### Состояние отделённой HEAD
 `git checkout 1914` - `checkout`на `commit`. Только для просмотра состояния, далее переключ. на ветку, не коммитив ничего перед этом.
+### Восстановление предыдущих версий файлов
+#### Задача: нужно откатиться на пару коммитов назад
+* `git checkout 45a32 <file_name or dir>` or `git checkout <branch> <file_name or dir>`
+* `git reset  <file_name>` сброс индекса
+#### Если незакоммич. то `git checkout <file_name>`
