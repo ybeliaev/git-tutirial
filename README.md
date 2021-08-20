@@ -6,7 +6,11 @@
 * `M`  отредактированные файлы 
 
 ## SSH key
-* Get to settings->SSH and GPG keys
+* Get to settings->SSH and GPG keys->generating SSH keys
+* `$ ssh-keygen -t rsa  -b 4096 -C "comment or title here"` in console
+* выбор места сохранения ключа
+* при вводе пароля его потом будут постоянно спрашивать - пропуск дважды
+* [Ввод ключа](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) публич часть - id_rsa.pub
 
 ## Файл .gitignore
 * Исключить все файлы с расширение .a
