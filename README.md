@@ -61,6 +61,8 @@
 `git checkout <branch_name>`
 ### ! и создание и переключение веток
 `git checkout -b <branch_name>`
+### `PUSH` в выбранную ветку
+`git push origin "branch_name"`
 ### Команда `checkout` при незакоммиченных изменениях
 #### Ситуация: работаю на ветке `features` и не закоммитил недоделанную работу, т.к нужно переключиться на `master`
 * `git checkout -f master` - незакоммич. изменения на  `features` пропадут
