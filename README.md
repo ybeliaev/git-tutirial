@@ -13,7 +13,8 @@
 * [Ввод ключа](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) публич часть - id_rsa.pub
 
 ## Файл .gitignore
-* Исключить все файлы с расширение .a
+### https://git-scm.com/docs/gitignore
+* Исключить все файлы с расширением .a
 `*.a`
 
 * Но отслеживать файл lib.a даже если он подпадает под исключение выше
@@ -28,7 +29,13 @@
 * Игнорировать файл doc/notes.txt, но не файл doc/server/arch.txt
 `doc/*.txt`
 
-* Игнорировать все .txt файлы в директории doc/
+* Игнорировать конкретный файл text.doc
+`text.doc`
+
+* Игнорировать любой файл с названием от 1 до 9
+`[1-9].doc`
+
+* Игнорировать все .txt файлы в директории doc/ на любой глубине
 `doc/**/*.txt`
 
 ## Переименование файла
