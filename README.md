@@ -1,4 +1,8 @@
 # GIT shot tutirial
+```git
+user.name=Yurij Beliaev
+user.email=ybeliaev@gmail.com
+```
 ## Сокращенный вывод статуса
 `git status -s`
 * `??` новые неотслеживаемые файлы 
