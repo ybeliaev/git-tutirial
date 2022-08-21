@@ -155,4 +155,6 @@ user.email=ybeliaev@gmail.com
 `git commit -m 'message' <file name>` 
 * сработает только для файлов, которые git уже отслеживает
 
-
+```mql4
+int x = 4;
+```
